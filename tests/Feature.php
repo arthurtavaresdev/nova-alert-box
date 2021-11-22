@@ -1,11 +1,3 @@
 <?php
 
-use NunoMaduro\SkeletonPhp\Example;
-
-it('foo', function () {
-    $example = new Example();
-
-    $result = $example->foo();
-
-    expect($result)->toBe('bar');
-});
+test('expect true to be true', fn () => expect(true)->toBe(true));
